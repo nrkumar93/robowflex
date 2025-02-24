@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robowflex_search</name>
+  <version>1.0.0</version>
+  <description>Robowflex: Search Library Interface</description>
+
+  <maintainer email="rnataraj@cs.cmu.edu">Ram Natarajan</maintainer>
+  <author email="rnataraj@cs.cmu.edu">Ram Natarajan</author>
+
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>robowflex_library</depend>
+  <depend>moveit_planners_ims</depend>
+  <!-- <depend>moveit_planners_ompl</depend> -->
+</package>
