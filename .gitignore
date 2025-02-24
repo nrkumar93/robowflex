@@ -1,5 +1,6 @@
 # Build
 */build
+*/cmake-build-*
 
 # Prerequisites
 *.d
@@ -47,3 +48,7 @@ __pycache__
 
 *.build-tmp*
 *.blend1
+
+# clion
+*.idea
+
