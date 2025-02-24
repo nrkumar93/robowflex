@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.1...3.10)
 project(robowflex_search
-  VERSION 1.3
+  VERSION 1.0
   LANGUAGES CXX
 )
 
