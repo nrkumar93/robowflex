@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: robowflex_library
+Description: Description of robowflex_library
+Version: 1.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrobowflex_library
+Requires: std_msgs sensor_msgs geometry_msgs visualization_msgs shape_msgs octomap_msgs trajectory_msgs object_recognition_msgs moveit_msgs roscpp rosbag urdf srdfdom pluginlib geometric_shapes moveit_core moveit_ros_planning tf2_ros xmlrpcpp

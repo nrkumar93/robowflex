@@ -1,0 +1,3603 @@
+{
+	"entries" : 
+	[
+		{
+			"name" : "BUILD_GMOCK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Builds the googlemock subproject"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "BUILD_SHARED_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build dynamically-linked binaries"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "Boost_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Boost."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/cmake/Boost-1.82.0"
+		},
+		{
+			"name" : "Boost_FILESYSTEM_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "STRING",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libboost_filesystem.so.1.82.0"
+		},
+		{
+			"name" : "Boost_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/include"
+		},
+		{
+			"name" : "CATKIN_ENABLE_TESTING",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Catkin enable testing"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CATKIN_ENV",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "catkin environment"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/catkin_generated/env_cached.sh"
+		},
+		{
+			"name" : "CATKIN_PACKAGE_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Prefix to apply to package generated via gendebian"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CATKIN_SKIP_TESTING",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Catkin skip testing"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CATKIN_SYMLINK_INSTALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Replace the CMake install command with a custom implementation using symlinks instead of copying resources"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CATKIN_TEST_RESULTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/test_results"
+		},
+		{
+			"name" : "CMAKE_ADDR2LINE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-addr2line"
+		},
+		{
+			"name" : "CMAKE_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-ar"
+		},
+		{
+			"name" : "CMAKE_BUILD_TYPE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+				}
+			],
+			"type" : "STRING",
+			"value" : "Debug"
+		},
+		{
+			"name" : "CMAKE_CACHEFILE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the directory where this CMakeCache.txt was created"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug"
+		},
+		{
+			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Major version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_CACHE_MINOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minor version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "30"
+		},
+		{
+			"name" : "CMAKE_CACHE_PATCH_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Patch version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "5"
+		},
+		{
+			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable colored diagnostics throughout."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CMAKE_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/snap/clion/322/bin/cmake/linux/x64/bin/cmake"
+		},
+		{
+			"name" : "CMAKE_CPACK_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cpack program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/snap/clion/322/bin/cmake/linux/x64/bin/cpack"
+		},
+		{
+			"name" : "CMAKE_CTEST_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to ctest program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/snap/clion/322/bin/cmake/linux/x64/bin/ctest"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "CXX compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-gcc-ar"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-gcc-ranlib"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gaussian/miniforge3/envs/ros_env/include"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-gcc-ar"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-gcc-ranlib"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/gaussian/miniforge3/envs/ros_env/include"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_DLLTOOL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_EXECUTABLE_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Executable file format"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ELF"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/gaussian/miniforge3/envs/ros_env/lib -Wl,-rpath-link,/home/gaussian/miniforge3/envs/ros_env/lib -L/home/gaussian/miniforge3/envs/ros_env/lib"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of compile commands during generation."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of external makefile project generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake."
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/CMakeFiles/pkgRedirects"
+		},
+		{
+			"name" : "CMAKE_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Ninja"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_INSTANCE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generator instance identifier."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_PLATFORM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator platform."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_TOOLSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator toolset."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREADS_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have library pthreads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_CREATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have library pthread"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_HOME_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library"
+		},
+		{
+			"name" : "CMAKE_INSTALL_BINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "User executables (bin)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "bin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATADIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data (DATAROOTDIR)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATAROOTDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data root (share)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "share"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DOCDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Documentation root (DATAROOTDIR/doc/PROJECT_NAME)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C header files (include)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_INFODIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Info documentation (DATAROOTDIR/info)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Object code libraries (lib)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "lib"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBEXECDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Program executables (libexec)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "libexec"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Locale-dependent data (DATAROOTDIR/locale)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Modifiable single-machine data (var)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "var"
+		},
+		{
+			"name" : "CMAKE_INSTALL_MANDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Man documentation (DATAROOTDIR/man)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_OLDINCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C header files for non-gcc (/usr/include)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install path prefix, prepended onto install directories."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local"
+		},
+		{
+			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Run-time variable data (LOCALSTATEDIR/run)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_SBINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "System admin executables (sbin)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "sbin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SHAREDSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Modifiable architecture-independent data (com)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "com"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SO_NO_EXE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install .so files without execute permission."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SYSCONFDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only single-machine data (etc)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "etc"
+		},
+		{
+			"name" : "CMAKE_LINKER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-ld"
+		},
+		{
+			"name" : "CMAKE_MAKE_PROGRAM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/snap/clion/322/bin/ninja/linux/x64/ninja"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/gaussian/miniforge3/envs/ros_env/lib -Wl,-rpath-link,/home/gaussian/miniforge3/envs/ros_env/lib -L/home/gaussian/miniforge3/envs/ros_env/lib"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_NM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-nm"
+		},
+		{
+			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "number of local generators"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "4"
+		},
+		{
+			"name" : "CMAKE_OBJCOPY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-objcopy"
+		},
+		{
+			"name" : "CMAKE_OBJDUMP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-objdump"
+		},
+		{
+			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Platform information initialized"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_DESCRIPTION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "robowflex_library"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "1.3"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_MINOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_PATCH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-ranlib"
+		},
+		{
+			"name" : "CMAKE_READELF",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-readelf"
+		},
+		{
+			"name" : "CMAKE_ROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake installation."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/snap/clion/322/bin/cmake/linux/x64/share/cmake-3.30"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/gaussian/miniforge3/envs/ros_env/lib -Wl,-rpath-link,/home/gaussian/miniforge3/envs/ros_env/lib -L/home/gaussian/miniforge3/envs/ros_env/lib"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_SKIP_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when using shared libraries."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STRIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-strip"
+		},
+		{
+			"name" : "CMAKE_TAPI",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_TAPI-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_UNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "uname command"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/uname"
+		},
+		{
+			"name" : "CMAKE_VERBOSE_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "DOXYGEN_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/doxygen"
+		},
+		{
+			"name" : "DOXYGEN_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Doxygen found"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "EIGEN3_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/include/eigen3"
+		},
+		{
+			"name" : "EMPY_SCRIPT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Empy script"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/python3.11/site-packages/em.py"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Boost",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Boost"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/home/gaussian/miniforge3/envs/ros_env/lib/cmake/Boost-1.82.0/BoostConfig.cmake][cfound components: filesystem ][v1.82.0()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Eigen3",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Eigen3"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/home/gaussian/miniforge3/envs/ros_env/include/eigen3][TRUE][v(2.91.0)]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_HDF5",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding HDF5"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5.so;/home/gaussian/miniforge3/envs/ros_env/lib/libcrypto.so;/home/gaussian/miniforge3/envs/ros_env/lib/libcurl.so;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libpthread.so;/home/gaussian/miniforge3/envs/ros_env/lib/libsz.so;/home/gaussian/miniforge3/envs/ros_env/lib/libz.so;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libdl.so;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so;/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5_cpp.so;/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5.so;/home/gaussian/miniforge3/envs/ros_env/lib/libcrypto.so;/home/gaussian/miniforge3/envs/ros_env/lib/libcurl.so;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libpthread.so;/home/gaussian/miniforge3/envs/ros_env/lib/libsz.so;/home/gaussian/miniforge3/envs/ros_env/lib/libz.so;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libdl.so;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so][cfound components: C CXX ][v1.14.3()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PY_em",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding PY_em"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/home/gaussian/miniforge3/envs/ros_env/lib/python3.11/site-packages/em.py][v()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Python",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Python"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/home/gaussian/miniforge3/bin/python3.12][cfound components: Interpreter ][v3.12.8()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding PythonInterp"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/home/gaussian/miniforge3/envs/ros_env/bin/python3.11][v3.11.8(3.11)]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_TinyXML2",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding TinyXML2"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/home/gaussian/miniforge3/envs/ros_env/lib/libtinyxml2.so][/home/gaussian/miniforge3/envs/ros_env/include][v()]"
+		},
+		{
+			"name" : "GMOCK_FROM_SOURCE_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "GMOCK_FROM_SOURCE_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/src/googletest/googlemock/include"
+		},
+		{
+			"name" : "GMOCK_FROM_SOURCE_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gmock"
+		},
+		{
+			"name" : "GMOCK_FROM_SOURCE_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/gmock"
+		},
+		{
+			"name" : "GMOCK_FROM_SOURCE_MAIN_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gmock_main"
+		},
+		{
+			"name" : "GMock_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for GMock."
+				}
+			],
+			"type" : "PATH",
+			"value" : "GMock_DIR-NOTFOUND"
+		},
+		{
+			"name" : "GTEST_FROM_SOURCE_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "GTEST_FROM_SOURCE_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "GTEST_FROM_SOURCE_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gtest"
+		},
+		{
+			"name" : "GTEST_FROM_SOURCE_LIBRARY_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/gtest"
+		},
+		{
+			"name" : "GTEST_FROM_SOURCE_MAIN_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "gtest_main"
+		},
+		{
+			"name" : "GTest_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for GTest."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/cmake/GTest"
+		},
+		{
+			"name" : "HDF5_CXX_COMPILER_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "HDF5 CXX Wrapper compiler.  Used only to detect HDF5 compile flags."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/h5c++"
+		},
+		{
+			"name" : "HDF5_CXX_COMPILER_NO_INTERROGATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_crypto",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libcrypto.so"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_curl",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libcurl.so"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_dl",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libdl.so"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_hdf5",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5.so"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_hdf5_cpp",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5_cpp.so"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_m",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_pthread",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libpthread.so"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_sz",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libsz.so"
+		},
+		{
+			"name" : "HDF5_CXX_LIBRARY_z",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libz.so"
+		},
+		{
+			"name" : "HDF5_C_COMPILER_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "HDF5 C Wrapper compiler.  Used only to detect HDF5 compile flags."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/h5cc"
+		},
+		{
+			"name" : "HDF5_C_COMPILER_NO_INTERROGATE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "HDF5_C_LIBRARY_crypto",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libcrypto.so"
+		},
+		{
+			"name" : "HDF5_C_LIBRARY_curl",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libcurl.so"
+		},
+		{
+			"name" : "HDF5_C_LIBRARY_dl",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libdl.so"
+		},
+		{
+			"name" : "HDF5_C_LIBRARY_hdf5",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5.so"
+		},
+		{
+			"name" : "HDF5_C_LIBRARY_m",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so"
+		},
+		{
+			"name" : "HDF5_C_LIBRARY_pthread",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libpthread.so"
+		},
+		{
+			"name" : "HDF5_C_LIBRARY_sz",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libsz.so"
+		},
+		{
+			"name" : "HDF5_C_LIBRARY_z",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libz.so"
+		},
+		{
+			"name" : "HDF5_DIFF_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "HDF5 file differencing tool."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/h5diff"
+		},
+		{
+			"name" : "HDF5_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for HDF5."
+				}
+			],
+			"type" : "PATH",
+			"value" : "HDF5_DIR-NOTFOUND"
+		},
+		{
+			"name" : "INSTALL_GTEST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable installation of googletest. (Projects embedding googletest may want to turn this OFF.)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "LSB_FOUND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "lsb_release executable was found"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "LSB_RELEASE_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/lsb_release"
+		},
+		{
+			"name" : "NOSETESTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/nosetests3"
+		},
+		{
+			"name" : "PYTHON_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/bin/python3.11"
+		},
+		{
+			"name" : "PYTHON_INSTALL_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This needs to be in PYTHONPATH when 'setup.py install' is called.  And it needs to match.  But setuptools won't tell us where it will install things."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "lib/python3.11/site-packages"
+		},
+		{
+			"name" : "PYTHON_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Specify specific Python version to use ('major.minor' or 'major')"
+				}
+			],
+			"type" : "STRING",
+			"value" : "3.11"
+		},
+		{
+			"name" : "PY_EM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Location of Python module em"
+				}
+			],
+			"type" : "STRING",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/python3.11/site-packages/em.py"
+		},
+		{
+			"name" : "SETUPTOOLS_DEB_LAYOUT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable debian style python package layout"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "SITE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of the computer/site where compile is being run"
+				}
+			],
+			"type" : "STRING",
+			"value" : "gaussian-Precision-5540"
+		},
+		{
+			"name" : "TINYXML2_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/include"
+		},
+		{
+			"name" : "TINYXML2_LIBRARIES",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libtinyxml2.so"
+		},
+		{
+			"name" : "UBUNTU",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "LSB Distrib tag"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "UBUNTU_JAMMY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "LSB Distrib - codename tag"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "YAML",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libyaml-cpp.so"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CMAKE_INSTALL_PREFIX during last run"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/local"
+		},
+		{
+			"name" : "_Python_Compiler_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Compiler reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python_Development_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Development reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Python_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/home/gaussian/miniforge3/bin/python3.12"
+		},
+		{
+			"name" : "_Python_INTERPRETER_PROPERTIES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Python Properties"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Python;3;12;8;64;32;<none>;cpython-312-x86_64-linux-gnu;abi3;/home/gaussian/miniforge3/lib/python3.12;/home/gaussian/miniforge3/lib/python3.12;/home/gaussian/miniforge3/lib/python3.12/site-packages;/home/gaussian/miniforge3/lib/python3.12/site-packages"
+		},
+		{
+			"name" : "_Python_INTERPRETER_SIGNATURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "bb6977ba256b1fb8e8b815129070a5f1"
+		},
+		{
+			"name" : "_Python_NumPy_REASON_FAILURE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "NumPy reason failure"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_gmock_INCLUDES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/src/googletest/googlemock/include/gmock/gmock.h"
+		},
+		{
+			"name" : "_gmock_SOURCES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/src/gmock/src/gmock.cc"
+		},
+		{
+			"name" : "_gtest_INCLUDES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/include/gtest/gtest.h"
+		},
+		{
+			"name" : "_gtest_SOURCES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/src/gtest/src/gtest.cc"
+		},
+		{
+			"name" : "actionlib_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for actionlib."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/actionlib/cmake"
+		},
+		{
+			"name" : "actionlib_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for actionlib_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/actionlib_msgs/cmake"
+		},
+		{
+			"name" : "boost_atomic_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for boost_atomic."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/cmake/boost_atomic-1.82.0"
+		},
+		{
+			"name" : "boost_filesystem_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for boost_filesystem."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/cmake/boost_filesystem-1.82.0"
+		},
+		{
+			"name" : "boost_headers_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for boost_headers."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/cmake/boost_headers-1.82.0"
+		},
+		{
+			"name" : "catkin_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for catkin."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/catkin/cmake"
+		},
+		{
+			"name" : "class_loader_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for class_loader."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/class_loader/cmake"
+		},
+		{
+			"name" : "cmake_package_name",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "GTest"
+		},
+		{
+			"name" : "cpp_common_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for cpp_common."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/cpp_common/cmake"
+		},
+		{
+			"name" : "dynamic_reconfigure_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for dynamic_reconfigure."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/dynamic_reconfigure/cmake"
+		},
+		{
+			"name" : "eigen_stl_containers_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for eigen_stl_containers."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/eigen_stl_containers/cmake"
+		},
+		{
+			"name" : "gencpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gencpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/gencpp/cmake"
+		},
+		{
+			"name" : "geneus_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for geneus."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/geneus/cmake"
+		},
+		{
+			"name" : "genlisp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for genlisp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/genlisp/cmake"
+		},
+		{
+			"name" : "genmsg_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for genmsg."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/genmsg/cmake"
+		},
+		{
+			"name" : "gennodejs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gennodejs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/gennodejs/cmake"
+		},
+		{
+			"name" : "genpy_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for genpy."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/genpy/cmake"
+		},
+		{
+			"name" : "geometric_shapes_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for geometric_shapes."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/geometric_shapes/cmake"
+		},
+		{
+			"name" : "geometry_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for geometry_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/geometry_msgs/cmake"
+		},
+		{
+			"name" : "gmock_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/gtest/googlemock"
+		},
+		{
+			"name" : "gmock_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "gmock_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;gtest;"
+		},
+		{
+			"name" : "gmock_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/usr/src/googletest/googlemock"
+		},
+		{
+			"name" : "gmock_build_tests",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build all of Google Mock's own tests."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "gmock_main_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;gmock;"
+		},
+		{
+			"name" : "googletest-distribution_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/gtest"
+		},
+		{
+			"name" : "googletest-distribution_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "googletest-distribution_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/usr/src/googletest"
+		},
+		{
+			"name" : "gtest_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/gtest/googletest"
+		},
+		{
+			"name" : "gtest_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "gtest_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/usr/src/googletest/googletest"
+		},
+		{
+			"name" : "gtest_build_samples",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build gtest's sample programs."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "gtest_build_tests",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build all of gtest's own tests."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "gtest_disable_pthreads",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Disable uses of pthreads in gtest."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "gtest_force_shared_crt",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use shared (DLL) run-time lib even when Google Test is built as static lib."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "gtest_hide_internal_symbols",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build gtest with internal symbols hidden in shared libraries."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "gtest_main_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;gtest;"
+		},
+		{
+			"name" : "kdl_parser_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for kdl_parser."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/kdl_parser/cmake"
+		},
+		{
+			"name" : "lib",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_ros_occupancy_map_monitor.so"
+		},
+		{
+			"name" : "message_filters_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for message_filters."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/message_filters/cmake"
+		},
+		{
+			"name" : "message_generation_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for message_generation."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/message_generation/cmake"
+		},
+		{
+			"name" : "message_runtime_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for message_runtime."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/message_runtime/cmake"
+		},
+		{
+			"name" : "moveit_core_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for moveit_core."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/moveit_core/cmake"
+		},
+		{
+			"name" : "moveit_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for moveit_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/moveit_msgs/cmake"
+		},
+		{
+			"name" : "moveit_ros_occupancy_map_monitor_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for moveit_ros_occupancy_map_monitor."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/moveit_ros_occupancy_map_monitor/cmake"
+		},
+		{
+			"name" : "moveit_ros_planning_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for moveit_ros_planning."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/moveit_ros_planning/cmake"
+		},
+		{
+			"name" : "object_recognition_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for object_recognition_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/object_recognition_msgs/cmake"
+		},
+		{
+			"name" : "octomap_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for octomap_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/octomap_msgs/cmake"
+		},
+		{
+			"name" : "pluginlib_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for pluginlib."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/pluginlib/cmake"
+		},
+		{
+			"name" : "random_numbers_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for random_numbers."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/random_numbers/cmake"
+		},
+		{
+			"name" : "robowflex_library_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug"
+		},
+		{
+			"name" : "robowflex_library_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "robowflex_library_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;/home/gaussian/miniforge3/envs/ros_env/lib/librosbag.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/librosbag_storage.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libroslz4.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liblz4.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libtopic_tools.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_rdf_loader.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_kinematics_plugin_loader.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_robot_model_loader.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_constraint_sampler_manager_loader.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_planning_pipeline.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_trajectory_execution_manager.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_plan_execution.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_planning_scene_monitor.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_collision_plugin_loader.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_cpp.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libdynamic_reconfigure_config_init_mutex.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_ros_occupancy_map_monitor.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_exceptions.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_background_processing.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_kinematics_base.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_robot_model.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_transforms.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_robot_state.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_robot_trajectory.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_planning_interface.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_collision_detection.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_collision_detection_fcl.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_collision_detection_bullet.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_kinematic_constraints.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_planning_scene.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_constraint_samplers.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_planning_request_adapter.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_profiler.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_python_tools.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_trajectory_processing.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_distance_field.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_collision_distance_field.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_kinematics_metrics.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_dynamics_solver.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_utils.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmoveit_test_utils.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libfcl.so.0.6.1;general;/home/gaussian/miniforge3/envs/ros_env/lib/libboost_iostreams.so.1.82.0;general;/home/gaussian/miniforge3/envs/ros_env/lib/libccd.so.2;general;/home/gaussian/miniforge3/envs/ros_env/lib/liboctomap.so.1.9;general;/home/gaussian/miniforge3/envs/ros_env/lib/libruckig.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libBulletSoftBody.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libBulletDynamics.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libBulletCollision.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libLinearMath.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libkdl_parser.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liburdf.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liburdfdom_sensor.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liburdfdom_model_state.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liburdfdom_model.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liburdfdom_world.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libtinyxml.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/librosconsole_bridge.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libsrdfdom.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libgeometric_shapes.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liboctomap.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liboctomath.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/librandom_numbers.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libclass_loader.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libPocoFoundation.so;general;dl;general;/home/gaussian/miniforge3/envs/ros_env/lib/libroslib.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/librospack.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libpython3.11.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libboost_program_options.so.1.82.0;general;/home/gaussian/miniforge3/envs/ros_env/lib/libtinyxml2.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liborocos-kdl.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libtf2_ros.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libactionlib.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libmessage_filters.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libroscpp.so;general;pthread;general;/home/gaussian/miniforge3/envs/ros_env/lib/libboost_chrono.so.1.82.0;general;/home/gaussian/miniforge3/envs/ros_env/lib/libboost_filesystem.so.1.82.0;general;/home/gaussian/miniforge3/envs/ros_env/lib/librosconsole.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/librosconsole_log4cxx.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/librosconsole_backend_interface.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/liblog4cxx.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libboost_regex.so.1.82.0;general;/home/gaussian/miniforge3/envs/ros_env/lib/libtf2.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libroscpp_serialization.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libxmlrpcpp.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/librostime.so;general;rt;general;/home/gaussian/miniforge3/envs/ros_env/lib/libboost_date_time.so.1.82.0;general;/home/gaussian/miniforge3/envs/ros_env/lib/libcpp_common.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libboost_system.so.1.82.0;general;/home/gaussian/miniforge3/envs/ros_env/lib/libboost_thread.so.1.82.0;general;/home/gaussian/miniforge3/envs/ros_env/lib/libconsole_bridge.so.1.0;general;Boost::filesystem;general;/home/gaussian/miniforge3/envs/ros_env/lib/libtinyxml2.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libcrypto.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libcurl.so;general;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libpthread.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libsz.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libz.so;general;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libdl.so;general;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5_cpp.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libhdf5.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libcrypto.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libcurl.so;general;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libpthread.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libsz.so;general;/home/gaussian/miniforge3/envs/ros_env/lib/libz.so;general;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libdl.so;general;/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib/libm.so;general;yaml-cpp;"
+		},
+		{
+			"name" : "robowflex_library_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library"
+		},
+		{
+			"name" : "rosbag_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosbag."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rosbag/cmake"
+		},
+		{
+			"name" : "rosbag_storage_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosbag_storage."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rosbag_storage/cmake"
+		},
+		{
+			"name" : "rosconsole_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosconsole."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rosconsole/cmake"
+		},
+		{
+			"name" : "rosconsole_bridge_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosconsole_bridge."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rosconsole_bridge/cmake"
+		},
+		{
+			"name" : "roscpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for roscpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/roscpp/cmake"
+		},
+		{
+			"name" : "roscpp_serialization_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for roscpp_serialization."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/roscpp_serialization/cmake"
+		},
+		{
+			"name" : "roscpp_traits_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for roscpp_traits."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/roscpp_traits/cmake"
+		},
+		{
+			"name" : "rosgraph_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosgraph."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rosgraph/cmake"
+		},
+		{
+			"name" : "rosgraph_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosgraph_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rosgraph_msgs/cmake"
+		},
+		{
+			"name" : "roslib_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for roslib."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/roslib/cmake"
+		},
+		{
+			"name" : "roslz4_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for roslz4."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/roslz4/cmake"
+		},
+		{
+			"name" : "rospack_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rospack."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rospack/cmake"
+		},
+		{
+			"name" : "rospy_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rospy."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rospy/cmake"
+		},
+		{
+			"name" : "rostime_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rostime."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/rostime/cmake"
+		},
+		{
+			"name" : "sensor_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for sensor_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/sensor_msgs/cmake"
+		},
+		{
+			"name" : "shape_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for shape_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/shape_msgs/cmake"
+		},
+		{
+			"name" : "srdfdom_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for srdfdom."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/srdfdom/cmake"
+		},
+		{
+			"name" : "std_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for std_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/std_msgs/cmake"
+		},
+		{
+			"name" : "std_srvs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for std_srvs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/std_srvs/cmake"
+		},
+		{
+			"name" : "tf2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for tf2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/tf2/cmake"
+		},
+		{
+			"name" : "tf2_eigen_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for tf2_eigen."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/tf2_eigen/cmake"
+		},
+		{
+			"name" : "tf2_geometry_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for tf2_geometry_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/tf2_geometry_msgs/cmake"
+		},
+		{
+			"name" : "tf2_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for tf2_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/tf2_msgs/cmake"
+		},
+		{
+			"name" : "tf2_py_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for tf2_py."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/tf2_py/cmake"
+		},
+		{
+			"name" : "tf2_ros_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for tf2_ros."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/tf2_ros/cmake"
+		},
+		{
+			"name" : "topic_tools_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for topic_tools."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/topic_tools/cmake"
+		},
+		{
+			"name" : "trajectory_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for trajectory_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/trajectory_msgs/cmake"
+		},
+		{
+			"name" : "urdf_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for urdf."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/urdf/cmake"
+		},
+		{
+			"name" : "visualization_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for visualization_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/visualization_msgs/cmake"
+		},
+		{
+			"name" : "xmlrpcpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for xmlrpcpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/gaussian/miniforge3/envs/ros_env/share/xmlrpcpp/cmake"
+		}
+	],
+	"kind" : "cache",
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

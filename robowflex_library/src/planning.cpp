@@ -380,6 +380,103 @@ std::vector<std::string> OMPL::OMPLPipelinePlanner::getPlannerConfigs() const
 }
 
 ///
+/// Search
+///
+
+bool search::loadSearchConfig(IO::Handler &handler, const std::string &config_file,
+                          std::vector<std::string> &configs)
+{
+    if (config_file.empty())
+        return false;
+
+    const auto &config = IO::loadFileToYAML(config_file);
+    if (!config.first)
+    {
+        RBX_ERROR("Failed to load planner configs.");
+        return false;
+    }
+
+    handler.loadYAMLtoROS(config.second);
+
+    const auto &planner_configs = config.second["planner_configs"];
+    if (planner_configs)
+    {
+        for (YAML::const_iterator it = planner_configs.begin(); it != planner_configs.end(); ++it)
+            configs.push_back(it->first.as<std::string>());
+    }
+
+    return true;
+}
+
+///
+/// search::Settings
+///
+
+search::Settings::Settings()
+  : max_planning_threads(4)
+  , interpolate_solutions(true)
+  , maximum_waypoint_distance(0.0)
+{
+}
+
+void search::Settings::setParam(IO::Handler &handler) const
+{
+    const std::string prefix = "search/";
+    handler.setParam(prefix + "max_planning_threads", max_planning_threads);
+    handler.setParam(prefix + "interpolate_solutions", interpolate_solutions);
+    handler.setParam(prefix + "maximum_waypoint_distance", maximum_waypoint_distance);
+}
+
+///
+/// OMPL::PipelinePlanner
+///
+
+const std::string search::SearchPipelinePlanner::DEFAULT_PLUGIN("ims_interface/IMSPlanner");
+const std::vector<std::string>                                        //
+    search::SearchPipelinePlanner::DEFAULT_ADAPTERS(                      //
+        {"default_planner_request_adapters/AddTimeParameterization",  //
+         "default_planner_request_adapters/FixWorkspaceBounds",       //
+         "default_planner_request_adapters/FixStartStateBounds",      //
+         "default_planner_request_adapters/FixStartStateCollision",   //
+         "default_planner_request_adapters/FixStartStatePathConstraints"});
+
+search::SearchPipelinePlanner::SearchPipelinePlanner(const RobotPtr &robot, const std::string &name)
+  : PipelinePlanner(robot, name)
+{
+}
+
+bool search::SearchPipelinePlanner::initialize(const std::string &config_file, const search::Settings &settings,
+                                           const std::string &plugin,
+                                           const std::vector<std::string> &adapters)
+{
+    if (!loadSearchConfig(handler_, config_file, configs_))
+        return false;
+
+    handler_.setParam("planning_plugin", plugin);
+
+    std::stringstream ss;
+    for (std::size_t i = 0; i < adapters.size(); ++i)
+    {
+        ss << adapters[i];
+        if (i < adapters.size() - 1)
+            ss << " ";
+    }
+
+    handler_.setParam("request_adapters", ss.str());
+    settings.setParam(handler_);
+
+    pipeline_.reset(new planning_pipeline::PlanningPipeline(robot_->getModelConst(), handler_.getHandle(),
+                                                            "planning_plugin", "request_adapters"));
+
+    return true;
+}
+
+std::vector<std::string> search::SearchPipelinePlanner::getPlannerConfigs() const
+{
+    return configs_;
+}
+
+///
 /// Opt
 ///
 

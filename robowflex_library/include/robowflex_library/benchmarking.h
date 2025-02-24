@@ -590,6 +590,34 @@ namespace robowflex
     private:
         const std::string prefix_;  ///< Log file prefix.
     };
+
+    /** \brief Benchmark outputter that saves results into Search benchmarking log files. If
+     * `ompl_benchmark_statistics.py` is available in your PATH variable, the results are also compiled into a
+     * database file.
+     */
+    class SearchPlanDataSetOutputter : public PlanDataSetOutputter
+    {
+    public:
+        /** \brief Constructor.
+         *  \param[in] prefix Prefix to place in front of all log files generated.
+         *  \param[in] dumpScene If true, will output scene into log file.
+         */
+        SearchPlanDataSetOutputter(const std::string &prefix);
+
+        /** \brief Destructor, runs `ompl_benchmark_statistics.py` to generate benchmarking database.
+         */
+        ~SearchPlanDataSetOutputter() override;
+
+        /** \brief Dumps \a results into a OMPL benchmarking log file in \a prefix_ named after the request \a
+         *  name_.
+         *  \param[in] results Results to dump to file.
+         */
+        void dump(const PlanDataSet &results) override;
+
+    private:
+        const std::string prefix_;  ///< Log file prefix.
+    };
+
 }  // namespace robowflex
 
 #endif

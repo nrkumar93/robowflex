@@ -371,6 +371,81 @@ namespace robowflex
         };
     }  // namespace OMPL
 
+    /** \brief Search specific planners and features.
+     */
+    namespace search
+    {
+        /** \brief Loads an OMPL configuration YAML file onto the parameter server.
+         */
+        bool loadSearchConfig(IO::Handler &handler, const std::string &config_file,
+                            std::vector<std::string> &configs);
+
+        /** \brief Settings descriptor for settings provided by the default \a MoveIt! OMPL planning pipeline.
+         */
+        class Settings
+        {
+        public:
+            /** \brief Constructor.
+             *  Initialized here so an empty class can be used as default arguments in a function.
+             */
+            Settings();
+
+            int max_planning_threads;               ///< Maximum number of threads used to service a request.
+            bool interpolate_solutions;             ///< Whether or not planner should interpolate solutions.
+            double maximum_waypoint_distance;       ///< Maximum distance between waypoints in path.
+
+            /** \brief Sets member variables on the parameter server using \a handler.
+             */
+            void setParam(IO::Handler &handler) const;
+        };
+
+        /** \cond IGNORE */
+        ROBOWFLEX_CLASS_FORWARD(SearchPipelinePlanner);
+        /** \endcond */
+
+        /** \class robowflex::search::SearchPipelinePlannerPtr
+            \brief A shared pointer wrapper for robowflex::search::SearchPipelinePlannerPtr. */
+
+        /** \class robowflex::search::SearchPipelinePlannerConstPtr
+            \brief A const shared pointer wrapper for robowflex::search::SearchPipelinePlannerConstPtr. */
+
+        /** \brief A robowflex::PipelinePlanner that uses the Search planning pipeline.
+         */
+        class SearchPipelinePlanner : public PipelinePlanner
+        {
+        public:
+            SearchPipelinePlanner(const RobotPtr &robot, const std::string &name = "");
+
+            // non-copyable
+            SearchPipelinePlanner(SearchPipelinePlanner const &) = delete;
+            void operator=(SearchPipelinePlanner const &) = delete;
+
+            /** \brief Initialize planning pipeline.
+             *  Loads Search planning plugin \a plugin with the planning adapters \a adapters. Parameters are
+             *  set on the parameter server from \a settings and planning configurations are loaded from the
+             *  YAML file \a config_file.
+             *  \param[in] config_file A YAML file containing OMPL planner configurations.
+             *  \param[in] settings Settings to set on the parameter server.
+             *  \param[in] plugin Planning plugin to load.
+             *  \param[in] adapters Planning adapters to load.
+             *  \return True upon success, false on failure.
+             */
+            bool initialize(const std::string &config_file = "", const Settings &settings = Settings(),
+                            const std::string &plugin = DEFAULT_PLUGIN,
+                            const std::vector<std::string> &adapters = DEFAULT_ADAPTERS);
+
+            std::vector<std::string> getPlannerConfigs() const override;
+
+        protected:
+            static const std::string DEFAULT_PLUGIN;                 ///< The default Search plugin.
+            static const std::vector<std::string> DEFAULT_ADAPTERS;  ///< The default planning adapters.
+
+        private:
+            std::vector<std::string> configs_;  ///< Planning configurations loaded from \a config_file in
+                                                ///< initialize()
+        };
+    }  // namespace OMPL
+
     namespace opt
     {
         /** \brief Loads configuration YAML file onto the parameter server.

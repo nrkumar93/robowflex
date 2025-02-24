@@ -1,0 +1,8 @@
+prefix=/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/devel
+
+Name: robowflex_library
+Description: Description of robowflex_library
+Version: 1.3.0
+Cflags: -I/home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/include
+Libs: -L${prefix}/lib -lrobowflex_library
+Requires: std_msgs sensor_msgs geometry_msgs visualization_msgs shape_msgs octomap_msgs trajectory_msgs object_recognition_msgs moveit_msgs roscpp rosbag urdf srdfdom pluginlib geometric_shapes moveit_core moveit_ros_planning tf2_ros xmlrpcpp

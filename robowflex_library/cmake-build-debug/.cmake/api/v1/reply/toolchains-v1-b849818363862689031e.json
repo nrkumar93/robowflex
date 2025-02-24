@@ -1,0 +1,112 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/gaussian/miniforge3/envs/ros_env/include",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed",
+						"/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/gaussian/miniforge3/envs/ros_env/lib",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc",
+						"/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/lib",
+						"/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/lib",
+						"/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gcc",
+						"gcc_s",
+						"c",
+						"gcc",
+						"gcc_s"
+					]
+				},
+				"path" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-cc",
+				"version" : "13.3.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/home/gaussian/miniforge3/envs/ros_env/include",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/x86_64-conda-linux-gnu",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include/c++/backward",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0/include-fixed",
+						"/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/home/gaussian/miniforge3/envs/ros_env/lib",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc/x86_64-conda-linux-gnu/13.3.0",
+						"/home/gaussian/miniforge3/envs/ros_env/lib/gcc",
+						"/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/lib",
+						"/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/lib",
+						"/home/gaussian/miniforge3/envs/ros_env/x86_64-conda-linux-gnu/sysroot/usr/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/home/gaussian/miniforge3/envs/ros_env/bin/x86_64-conda-linux-gnu-c++",
+				"version" : "13.3.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

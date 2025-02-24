@@ -510,7 +510,8 @@ namespace
 }  // namespace
 
 IO::Handler::Handler(const std::string &name)
-  : name_(name), namespace_("robowflex_" + UUID + "/" + name_), nh_(namespace_)
+  // : name_(name), namespace_("robowflex_" + UUID + "/" + name_), nh_(namespace_)
+  : name_(name), namespace_(""), nh_("")
 {
 }
 

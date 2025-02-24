@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gaussian/harmonics/ros_ws/src/robowflex/robowflex_library/cmake-build-debug/devel/setup.sh
