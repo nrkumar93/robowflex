@@ -611,8 +611,8 @@ OMPLPlanDataSetOutputter::~OMPLPlanDataSetOutputter()
 void OMPLPlanDataSetOutputter::dump(const PlanDataSet &results)
 {
     std::ofstream out;
-    IO::createFile(out, log::format("%1%_%2%.log", prefix_, results.name));
-    std::cout << "results file: " << log::format("%1%_%2%.log", prefix_, results.name) << std::endl;
+    IO::createFile(out, log::format("%1%/%2%.log", prefix_, results.name));
+    std::cout << "results file: " << log::format("%1%/%2%.log", prefix_, results.name) << std::endl;
 
     out << "MoveIt! version " << MOVEIT_VERSION << std::endl;  // version
     out << "Experiment " << results.name << std::endl;         // experiment
@@ -752,8 +752,8 @@ SearchPlanDataSetOutputter::~SearchPlanDataSetOutputter()
 void SearchPlanDataSetOutputter::dump(const PlanDataSet &results)
 {
     std::ofstream out;
-    IO::createFile(out, log::format("%1%_%2%.log", prefix_, results.name));
-    std::cout << "results file: " << log::format("%1%_%2%.log", prefix_, results.name) << std::endl;
+    IO::createFile(out, log::format("%1%/%2%.log", prefix_, results.name));
+    std::cout << "results file: " << log::format("%1%/%2%.log", prefix_, results.name) << std::endl;
 
     out << "MoveIt! version " << MOVEIT_VERSION << std::endl;  // version
     out << "Experiment " << results.name << std::endl;         // experiment
