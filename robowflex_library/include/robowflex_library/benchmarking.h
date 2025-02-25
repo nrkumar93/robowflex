@@ -85,6 +85,7 @@ namespace robowflex
         planning_interface::MotionPlanResponse response;  ///< Planner response.
         bool success;                                     ///< Was the plan successful?
         TrajectoryPtr trajectory;                         ///< The resulting trajectory, if available.
+        TrajectoryPtr simplified_path;                    ///< The resulting trajectory simplified, if available.
 
         /** \} */
 

@@ -267,8 +267,13 @@ void Profiler::computeBuiltinMetrics(uint32_t options, const SceneConstPtr &scen
     if (options & Metrics::WAYPOINTS)
         run.metrics["waypoints"] = run.success ? int(run.trajectory->getNumWaypoints()) : int(0);
 
-    if (options & Metrics::LENGTH)
+    if (options & Metrics::LENGTH) {
         run.metrics["length"] = run.success ? run.trajectory->getLength() : 0.0;
+        run.metrics["original_l1_length"] = run.success ? path_length(*run.trajectory->getTrajectory()) : 0.0;
+        run.metrics["original_l2_length"] = run.success ? run.trajectory->getLength() : 0.0;
+        run.metrics["simplified_l1_length"] = 0.0; // simplified path not computed as of yet
+        run.metrics["simplified_l2_length"] = 0.0; // simplified path not computed as of yet
+    }
 
     if (options & Metrics::CORRECT)
         run.metrics["correct"] = run.success ? run.trajectory->isCollisionFree(scene) : false;
