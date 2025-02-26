@@ -480,7 +480,7 @@ namespace robowflex
          *  \param[in] n_threads Number of threads to use for benchmarking.
          *  \return The computed dataset.
          */
-        PlanDataSetPtr benchmark(std::size_t n_threads = 1) const;
+        PlanDataSetPtr benchmark(std::size_t n_threads = 1, std::string results_filename="results") const;
 
     private:
         const std::string name_;  ///< Name of this experiment.

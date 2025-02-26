@@ -385,7 +385,7 @@ void Experiment::setPostQueryCallback(const PostQueryCallback &callback)
     complete_callback_ = callback;
 }
 
-PlanDataSetPtr Experiment::benchmark(std::size_t n_threads) const
+PlanDataSetPtr Experiment::benchmark(std::size_t n_threads, std::string results_filename) const
 {
     // Setup dataset to return
     auto dataset = std::make_shared<PlanDataSet>();
@@ -518,14 +518,23 @@ PlanDataSetPtr Experiment::benchmark(std::size_t n_threads) const
                          id, info.query->name, info.index,                                           //
                          info.trial + 1, trials_,                                                    //
                          completed_queries, total_queries);
+
+                /// Write as you generate data
+                dataset->finish = IO::getDate();
+                dataset->time = IO::getSeconds(dataset->start, dataset->finish);
+                SearchPlanDataSetOutputter output(IO::resolveParent(results_filename));
+                output.dump(*dataset);
             }
         }));
 
     for (const auto &thread : threads)
         thread->join();
 
+    /// Write once again
     dataset->finish = IO::getDate();
     dataset->time = IO::getSeconds(dataset->start, dataset->finish);
+    SearchPlanDataSetOutputter output(IO::resolveParent(results_filename));
+    output.dump(*dataset);
 
     return dataset;
 }
@@ -792,6 +801,10 @@ void SearchPlanDataSetOutputter::dump(const PlanDataSet &results)
     // planners_data -> planner_data
     for (const auto &name : results.query_names)
     {
+        if (results.data.find(name) == results.data.end()) {
+            continue;
+        }
+
         const auto &runs = results.data.find(name)->second;
 
         out << name << std::endl;  // planner_name
