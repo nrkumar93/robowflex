@@ -4,6 +4,7 @@ project(robowflex_search
   LANGUAGES CXX
 )
 
+add_compile_options(-std=c++17)
 set(LIBRARY_NAME ${PROJECT_NAME})
 
 set(CMAKE_MODULE_PATH
